@@ -1,0 +1,206 @@
+<article class="bcls-article">
+  <h1>{{ page.title }}</h1>
+  <summary>{{ page.description }}</summary>
+  <section class="bcls-section">
+    <p>Marketing Studio makes it easy to publish  videos out to YouTube, Facebook, Twitter and LinkedIn. Before you can publish videos, you must create publishing destinations using Video Cloud Studio for the social accounts you wish to publish videos to. For information on creating publishing destinations, see <a href="/social/module/creating-social-media-publishing-destinations.html">Creating Social Media Publishing Destinations</a>. </p>
+    <p>To publish a video to a social media site, follow these steps.</p>
+    <ol class="bcls-tasklist-restart">
+      <li>In the primary  navigation, click <strong>Media</strong>.</li>
+      <li>Do one of the following:
+        <ul>
+          <li>In card view, hover over a video card, click the action button (...) and then click <strong>Publish to Social</strong></li>
+          <li>In list view, click the action menu (...) next to the video to publish and then click<strong> Publish to Social</strong></li>
+          <li>Click on a video to open the video details page and click <span class="button-blue-text-bordered">Publish to Social</span></li>
+        </ul>
+        <aside class="bcls-aside bcls-aside--information">Note: Videos must have at least one MP4 rendition to be published to a social media site<a href="https://studio.support.brightcove.com/get-started/basics/video-cloud-basics-activating-and-deactivating-video.html"></a>.</aside>
+      </li>
+      <li>The <strong>Choose Destination</strong> page
+        will display a list of all publishing destinations that have been created.  Click on a destination and click <span class="button-blue">Next <i data-feather="arrow-right"></i> </span>.
+        <aside class="bcls-aside bcls-aside--information">Note: Click <strong>Add Destination</strong> to <a href="/social/module/creating-social-media-publishing-destinations.html">create a new publishing destination</a> using Video Cloud Studio.</aside>
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/choose-dest.png" /></figure>
+      </li>
+      <li>Enter the content for the post. The video fields that are displayed will differ depending on the social media platform you are publishing to. For more information, see the sections for each social media platform:
+        <ul>
+          <li><a href="#youtube">YouTube</a></li>
+          <li><a href="#facebook">Facebook</a></li>
+          <li><a href="#twitter">Twitter</a></li>
+          <li><a href="#linkedin">LinkedIn</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+        </ul>
+      </li>
+      <li>Click <span class="button-blue">Next <i data-feather="arrow-right"></i></span>.</li>
+      <li>Review the post and click <span class="button-blue-text-bordered">Publish <i data-feather="arrow-right"></i></span>.</li>
+    </ol>
+    <p>You can monitor the posting status using Video Cloud Studio. Open the <strong>Social</strong> module and then click <strong>Published</strong> in the left navigation. For information on viewing the status of publishing streams, see <a href="https://studio.support.brightcove.com/social/viewing-videos-published-social-media.html">Viewing Your Social Media Publishing Streams</a>.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="youtube">Creating a post for YouTube</h2>
+    <p>By default, videos that are up to 15 minutes long can be uploaded to YouTube. For information on uploading longer videos, see <a href="https://studio.support.brightcove.com/general/enabling-longer-videos-youtube.html">Enabling Longer Videos In YouTube</a>.</p>
+    <p>When choosing a YouTube destination, the following video details can be entered:</p>
+    <ul>
+      <li><strong>Title</strong> - Title of the video (defaults to Marketing Studio title). YouTube supports up to 100 characters.</li>
+      <li><strong>Description</strong> - Description of the video (defaults to Marketing Studio short description). YouTube supports up to 5000 characters.</li>
+      <li><strong>Tags</strong> - Tags for the video (defaults to Marketing Studio tags). There's no specific tag count limit; you can use max 30 characters per tag, and the text field accepts up to 500 characters.</li>
+      <li><strong>Schedule Post</strong>
+        <ul>
+          <li><strong>Publish Immediately</strong> - To publish the video immediately</li>
+          <li><strong>Schedule Publish Date</strong> - To choose a publish date and time for the video</li>
+        </ul>
+      </li>
+      <li><strong>Privacy Settings</strong> - </li>
+      <li><strong>Notify subscribers when video is posted to YouTube</strong> - If checked, your subscribers will see your videos in their Subscriptions feed and may receive a notification that the video was uploaded.</li>
+      <li><strong>License and rights ownership</strong>
+        <ul>
+          <li>Standard YouTube License</li>
+          <li>Creative Commons - Attribution</li>
+        </ul>
+        <aside class="bcls-aside bcls-aside--information language-editable">Note: For more information on YouTube License and Rights Ownership, see the <a href="https://support.google.com/youtube/answer/2797468">YouTube documentation</a>.</aside>
+      </li>
+      <li><strong>Captions</strong>
+        <ul>
+          <li><strong>Use Marketing Studio captions</strong> - Use the captions associated with the video in Marketing Studio</li>
+          <li><strong>No captions</strong> - No captions are sent to Facebook</li>
+          <li><strong>Upload captions</strong> - Allows you to <a href="#captions">manually upload a captions file</a></li>
+        </ul>
+      </li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/youtube-post.png" /></figure>
+    <aside class="bcls-aside bcls-aside--information"> Notes:
+      <ul>
+        <li><a href="https://studio.support.brightcove.com/social/creating-social-media-publishing-destinations.html#youtube_defaults">Default video properties for YouTube</a> can be set by editing the destination.</li>
+        <li>Avoid special characters in the name and description of the video: using "&lt;" or "&gt;" are known to cause failure, but other special characters may cause problems as well.</li>
+        <li>Updates to thumbnail images in Video Cloud Studio will not update the thumbnail image on the YouTube side.</li>
+        <li>After a video is published to YouTube, any updates to the source video using Video Cloud Studio will not update on the YouTube side.</li>
+      </ul>
+    </aside>
+  </section>
+  <section class="bcls-section">
+    <h2 id="facebook">Creating a post for Facebook</h2>
+    <p>When choosing a Facebook destination, the following video details can be entered:</p>
+    <ul>
+      <li><strong>Title</strong> - Title of the video (defaults to Marketing Studio title). Facebook will truncate after 65 characters.</li>
+      <li><strong>Status message</strong> - Description of the video (defaults to Marketing Studio short description).</li>
+      <li><strong>Facebook Tags</strong> - Enter Facebook tag(s) from the list. Note that Facebook manages the tags so they will be checked when typing into the <strong>Facebook Tags</strong> field.</li>
+      <li><strong>Schedule publish date</strong>
+        <ul>
+          <li><strong>Publish immediately</strong> - To publish the video immediately</li>
+          <li><strong>Schedule</strong> - To choose a publish date and time for the video</li>
+        </ul>
+      </li>
+      <li><strong>Schedule expiration date</strong>
+        <ul>
+          <li><strong>Post never expires</strong> - The post will never expire</li>
+          <li><strong>Schedule</strong> - To choose an expiration date and time for the video</li>
+        </ul>
+      </li>
+      <li><strong>Captions</strong>
+        <ul>
+          <li><strong>Use Marketing Studio captions</strong> - Use the captions associated with the video in Marketing Studio</li>
+          <li><strong>No captions</strong> - No captions are sent to Facebook</li>
+          <li><strong>Upload captions</strong> - Allows you to <a href="#captions">manually upload a captions file</a></li>
+        </ul>
+      </li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/facebook-post.png" /></figure>
+    <h3>Configuring advanced settings</h3>
+    <ul>
+      <li><strong>Audience Optimization Interests</strong> - Add tags to describe the interests of people who are most likely to enjoy your post. For more information, see the <a href="https://www.facebook.com/facebookmedia/get-started/interest-targeting">Facebook documentation</a>.</li>
+      <li><strong>Location Restrictions</strong> - Add countries to include or exclude from seeing the post</li>
+      <li><strong>Business partner for posts to this destination</strong> - Add a business partner for branded content posts. As you type, a list of matching businesses will appear. For information on Facebook branded content, see the <a href="https://www.facebook.com/facebookmedia/solutions/branded-content">Facebook documentation</a>.</li>
+      <li><strong>Allow business partner to boost posts</strong></li>
+      <li><strong>Detect Matching Content</strong> - Check to enable Facebook rights management. For information, see the <a href="https://rightsmanager.fb.com">Facebook documentation</a>.</li>
+      <li><strong>Show in News Feed</strong> - Shows video in News Feed</li>
+      <li><strong>International Media</strong></li>
+      <li><strong>Add as Secret Video</strong> - Videos will be accessible only via a direct URL and are not searchable for people on Facebook
+        <ul>
+          <li><strong>Turn off Reactions, Comments and Shares</strong> - Disallows likes and comments</li>
+        </ul>
+      </li>
+      <li><strong>Tracking</strong> - Assigns a universal ID to track the video across systems. The following <strong>Universal ID</strong> options are available:
+        <ul>
+          <li>Do not assign a Universal ID</li>
+          <li>Use Video ID from Marketing Studio</li>
+          <li> Use Reference ID from Marketing Studio</li>
+        </ul>
+      </li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/facebook-advanced-settings.png" /></figure>
+    <aside class="bcls-aside bcls-aside--information"> Notes:
+      <ul>
+        <li><a href="file:///Macintosh HD/Users/bbailey/git/mstudio/media/creating-social-media-publishing-destinations.html#facebook_defaults">Default video properties for Facebook</a> can be set by editing the destination.</li>
+        <li>Updates to thumbnail images in Video Cloud Studio will not update the thumbnail image on the Facebook side.</li>
+        <li> After a video is published to Facebook, any updates to the source video using Video Cloud Studio will not update on the Facebook side.</li>
+        <li>The schedule date and time are sent to Facebook only once, when the video is sent to Facebook. If the schedule date and/or time needs to be changed, they must be changed in Facebook.</li>
+      </ul>
+    </aside>
+  </section>
+  <section class="bcls-section">
+    <h2 id="twitter">Creating a post for Twitter</h2>
+    <p>When choosing a Twitter destination, the following video details can be entered:</p>
+    <ul>
+      <li><strong>Tweet</strong> - Text to tweet</li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/twitter-post.png" /></figure>
+    <aside class="bcls-aside bcls-aside--information"> Notes:
+      <ul>
+        <li><a href="file:///Macintosh HD/Users/bbailey/git/mstudio/media/creating-social-media-publishing-destinations.html#twitter_defaults"> Default video properties for Twitter</a> can be set by editing the destination.</li>
+        <li><span class="BCL-aside">After a video is published to Twitter, any updates to the source video in Studio will not update on the Twitter side.</span></li>
+      </ul>
+    </aside>
+  </section>
+  <section class="bcls-section">
+    <h2 id="linkedin">Creating a post for LinkedIn</h2>
+    <p>When choosing a LinkedIn destination, the following video details can be entered:</p>
+    <ul>
+      <li><strong>Title</strong> - Title of the video (defaults to Marketing Studio title). YouTube supports up to 100 characters.</li>
+      <li><strong>Description</strong> - Description of the video (defaults to Marketing Studio short description). LinkedIn supports up to 255 characters.</li>
+      <li><strong>Captions</strong>
+        <ul>
+          <li><strong>Use Marketing Studio captions</strong> - Use the captions associated with the video in Marketing Studio</li>
+          <li><strong>No captions</strong> - No captions are sent to Facebook</li>
+          <li><strong>Upload captions</strong> - Allows you to <a href="#captions">manually upload a captions file</a></li>
+        </ul>
+        <aside class="bcls-aside bcls-aside--information language-editable">Note: LinkedIn only supports English captions.</aside>
+      </li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/linkedin-post.png" /></figure>
+    <aside class="bcls-aside bcls-aside--information"> Notes:
+      <ul>
+        <li>Avoid special characters in the name and description of the video: using "&lt;" or "&gt;" are known to cause failure, but other special characters may cause problems as well.</li>
+        <li>Updates to thumbnail images in Video Cloud Studio will not update the thumbnail image on the LinkedIn side.</li>
+        <li>After a video is published to LinkedIn, any updates to the source video using Video Cloud Studio will not update on the LinkedIn side.</li>
+      </ul>
+    </aside>
+  </section>
+<section class="bcls-section">
+    <h2 id="instagram">Creating a post for Instagram</h2>
+    <p>When choosing an Instagram destination, the following video details can be entered:</p>
+    <ul>
+      <li><strong>Title</strong> - Title of the video (defaults to Marketing Studio title). YouTube supports up to 100 characters.</li>
+      <li><strong>Description</strong> - Description of the video (defaults to Marketing Studio short description). LinkedIn supports up to 255 characters.</li>
+      <li><strong>Captions</strong>
+        <ul>
+          <li><strong>Use Marketing Studio captions</strong> - Use the captions associated with the video in Marketing Studio</li>
+          <li><strong>No captions</strong> - No captions are sent to Facebook</li>
+          <li><strong>Upload captions</strong> - Allows you to <a href="#captions">manually upload a captions file</a></li>
+        </ul>
+        <aside class="bcls-aside bcls-aside--information language-editable">Note: LinkedIn only supports English captions.</aside>
+      </li>
+    </ul>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/media/publish-social/linkedin-post.png" /></figure>
+  </section>
+  <section class="bcls-section">
+    <h2 id="captions">Manually uploading a captions file</h2>
+    <p>Some social destinations provide the option of upload captions when a video is being published to social media. Follow these steps to upload a caption file.</p>
+    <ol class="bcls-tasklist-restart">
+      <li>When creating a social post, select the <strong>Upload captions</strong> option.</li>
+      <li>Click <span class="button-blue-text-bordered"> <i data-feather="upload-cloud"></i> Upload</span>.</li>
+      <li>Browse and select a captions file. The captions file should be in .VTT or .SRT format.</li>
+      <li>Select the caption <strong>Language</strong>.</li>
+      <li> Click <span class="button-blue"> <i data-feather="plus"></i> Add caption file</span>.
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/s-social-img/module/publish-social/upload-captions.png" /></figure>
+      </li>
+    </ol>
+    <p>Caption files can be removed by clicking the ellipsis next to the file and then by clicking <strong>Remove</strong>.</p>
+  </section>
+</article>
