@@ -1,0 +1,39 @@
+<article class="bcls-article">
+    <h1>{{ page.title }}</h1>
+    <summary>{{ page.description }}</summary>
+    <section class="bcls-section">
+      <p>Create an app in the Sprinklr developer portal in order to get an API key/secret is a two step process.</p>
+    <ol class="bcls-tasklist-restart">
+        <li>Register on <a href="https://developer.sprinklr.com/member/register">sprinklr developer portal</a>.
+            <ul>
+                <li>Fill the form with your personal information.</li>
+                <li><strong>Register</strong>.</li>
+                <li>Confirm your account with your email.</li>
+            </ul>
+        </li>
+        <li>Register an application to generate an API key.
+            <ul>
+                <li>Go to <a href="https://developer.sprinklr.com/">Sprinklr developer portal</a>.</li>
+                <li><strong>Sign in</strong>.</li>
+                <li><strong>My Account</strong>.</li>
+                <li><strong>Applications</strong>.</li>
+                <li><strong>CREATE A NEW APP</strong>.</li>
+                <li>Fill the fields</li>
+                <li>In the field <strong>Enter Callback url</strong> use this url. <code translate="no">https://studio.brightcove.com/products/videocloud/social</code>
+                <figure class="bcls-figure"><img src="/assets/images/s-social-img/module/callback-url.webp"></figure>
+                </li>
+                <li>Select the environment for wich you want to generate API key.
+                    <figure class="bcls-figure"><img src="/assets/images/s-social-img/module/issue-prod.webp"></figure>
+                    <aside class="bcls-aside bcls-aside--tip"><p>Note: The key is tied to a particular instance (Prod/Prod0/Prod2/Prod3/Prod4). You can only fetch data from the workspaces to which the token has been given access to.</p>
+                    <p>For this example select <strong>Issue a new key for Production</strong>.</p></aside>
+                </li>
+                <li>Tick the checkbox for <strong>I agree to the terms of services</strong>.</li>
+                <li><strong>REGISTER APPLICATION</strong>.</li>
+                <li>On <strong>My Account</strong> you can see your application details, <strong>API key</strong> and <strong>Secret</strong>.
+                    <figure class="bcls-figure"><img src="/assets/images/s-social-img/module/app-details.webp"></figure>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <p>For more information see: <a href="https://developer.sprinklr.com/docs/read/api_overview/Getting_Started">Generate an API Key</a>.</p>
+    </section>
